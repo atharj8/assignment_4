@@ -1,0 +1,324 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+\title{ASSIGNMENT 4 }
+\author{Athar Javed}
+\date{\today}
+\maketitle
+\flushleft
+\textbf{Question:}\\
+\hspace{2cm}Find the equation of the line satisfying the following conditions:\\
+\begin{enumerate}
+\item[a.]passing through the point 
+\begin{pmatrix}
+-4\\
+3\\
+\end{pmatrix} with slope 1/2.
+\item[b.]passing through the point \begin{pmatrix}
+0\\
+0
+\end{pmatrix} with slope m.
+\item[c.]passing through the point \begin{pmatrix}
+2\\
+2\sqrt{3}
+\end{pmatrix} and inclined with the x-axis at an angle of 75◦.
+
+\item[d.] Intersecting the x-axis at a distance of 3 units to the let of the\vspace{0.2cm} origin with slope -2.
+
+\item[e.]Intersecting the y-axis at a distance of 2 units above the origin\vspace{0.2cm} and making an angle of 30◦ with the positive direction of the x-axis.
+
+\item[f.]passing through the points \begin{pmatrix}
+-1\\
+1
+\end{pmatrix} and \begin{pmatrix}
+2\\
+-4
+\end{pmatrix}
+\item[g.]perpendicular distance from the origin is 5 and the angle made by\vspace{0.2cm} the perpendicular with the positive x-axis is 30◦.
+\end{enumerate}
+\newpage
+\textbf{SOL:}\\
+\textbf{(a).}\hspace{1cm} A=\begin{pmatrix}
+-4\\
+3
+\end{pmatrix} and m=1/2\\
+The direction vector is k=\begin{pmatrix}
+1\\
+1/2
+\end{pmatrix}\\
+Hence Normal Vector
+\begin{center} 
+ n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}k\vspace{0.2cm}\\
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+1/2
+\end{pmatrix}\vspace{0.2cm}\\
+n=\begin{pmatrix}
+-1/2\\
+1
+\end{pmatrix}\\
+\end{center}
+Now, the equation of the line in terms of normal vector in obtained as:\\
+\begin{center}
+n^T(X-A) = 0\\
+\begin{pmatrix}
+-1/2&1
+\end{pmatrix}X  -  \begin{pmatrix}
+-1/2&1
+\end{pmatrix}
+\begin{pmatrix}
+-4\\
+3
+\end{pmatrix} = 0\\
+\textbf{\begin{pmatrix}
+-1/2&1
+\end{pmatrix}X = 5\\}
+\end{center}
+which is the required  equation.\\ 
+\vspace{1.5cm}
+\textbf{(b).}\hspace{1cm} A=\begin{pmatrix}
+0\\
+0
+\end{pmatrix} and slope = m.\\
+The direction vector is k=\begin{pmatrix}
+1\\
+m
+\end{pmatrix}\\
+Hence Normal vector
+\begin{center} 
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}k\\
+\vspace{0.2cm}
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+m
+\end{pmatrix}\\\vspace{0.2cm}
+n=\begin{pmatrix}
+-m\\
+1
+\end{pmatrix}\\
+\end{center}
+Now, the equation of the line in terms of normal vector in obtained as:\\
+\begin{center}
+n^T(X-A) = 0\\\vspace{0.2cm}
+\begin{pmatrix}
+-m&1
+\end{pmatrix}X  -  \begin{pmatrix}
+-m&1
+\end{pmatrix}
+\begin{pmatrix}
+0\\
+0
+\end{pmatrix} = 0\\\vspace{0.2cm}
+\textbf{\begin{pmatrix}
+-m&1
+\end{pmatrix}X = 0\\}
+\end{center}
+which is the required  equation.\\
+\vspace{1.5cm}
+\textbf{(c).}\hspace{1cm}A=\begin{pmatrix}
+2\\
+2\sqrt{3}
+\end{pmatrix} and slope = tan75◦= 2+ \sqrt{3}\\
+The direction vector is k=\begin{pmatrix}
+1\\
+2+ \sqrt{3}
+\end{pmatrix}\\
+Hence Normal vector
+\begin{center} 
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}k\\\vspace{0.2cm}
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+2+ \sqrt{3}
+\end{pmatrix}\\\vspace{0.2cm}
+n=\begin{pmatrix}
+-2-\sqrt{3}\\
+1
+\end{pmatrix}\\\vspace{0.2cm}
+\end{center}
+Now, the equation of the line in terms of normal vector in obtained as:\\
+\begin{center}
+n^T(X-A) = 0\\
+\begin{pmatrix}
+-2-\sqrt{3}&1
+\end{pmatrix}X  -  \begin{pmatrix}
+-2-\sqrt{3}&1
+\end{pmatrix}
+\begin{pmatrix}
+2\\
+2\sqrt{3}
+\end{pmatrix} = 0\\
+\textbf{\begin{pmatrix}
+-2-\sqrt{3}&1
+\end{pmatrix}X = -4\\}
+\end{center}
+which is the required  equation.\\
+\vspace{1.5cm}
+\textbf{(d).}\hspace{1cm}A=\begin{pmatrix}
+-3\\
+0
+\end{pmatrix} and slope = -2\\
+The direction vector is k=\begin{pmatrix}
+1\\
+-2
+\end{pmatrix}\\
+Hence Normal vector
+\begin{center} 
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}k\\\vspace{0.2cm}
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+-2
+\end{pmatrix}\\\vspace{0.2cm}
+n=\begin{pmatrix}
+2\\
+1
+\end{pmatrix}\\
+\end{center}
+Now, the equation of the line in terms of normal vector in obtained as:\\
+\begin{center}
+n^T(X-A) = 0\\
+\begin{pmatrix}
+2&1
+\end{pmatrix}X  -  \begin{pmatrix}
+2&1
+\end{pmatrix}
+\begin{pmatrix}
+-3\\
+0
+\end{pmatrix} = 0\\
+\textbf{\begin{pmatrix}
+2&1
+\end{pmatrix}X = -6\\}
+\end{center}
+which is the required  equation.\\
+\vspace{01.5cm}
+\textbf{(e).}\hspace{1cm}A=\begin{pmatrix}
+0\\
+2
+\end{pmatrix} and slope = tan30◦= 1\sqrt{3}\\
+The direction vector is k=\begin{pmatrix}
+1\\
+1\sqrt{3}
+\end{pmatrix}\\
+Hence Normal vector
+\begin{center} 
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}k\\\vspace{0.2cm}
+n=\begin{pmatrix}
+0&-1\\
+1&0
+\end{pmatrix}
+\begin{pmatrix}
+1\\
+1\sqrt{3}
+\end{pmatrix}\\\vspace{0.2cm}
+n=\begin{pmatrix}
+-1\sqrt{3}\\
+1
+\end{pmatrix}\\
+\end{center}
+Now, the equation of the line in terms of normal vector in obtained as:\\
+\begin{center}
+n^T(X-A) = 0\\
+\begin{pmatrix}
+-1\sqrt{3}&1
+\end{pmatrix}X  -  \begin{pmatrix}
+-1\sqrt{3}&1
+\end{pmatrix}
+\begin{pmatrix}
+0\\
+2
+\end{pmatrix} = 0\\
+\textbf{\begin{pmatrix}
+-1\sqrt{3}&1
+\end{pmatrix}X = 2\\}
+\end{center}
+which is the required  equation.\\
+\vspace{1.5cm}
+\textbf{(f).}\hspace{1cm} A=\begin{pmatrix}
+-1\\
+1
+\end{pmatrix} and B=\begin{pmatrix}
+2\\
+-4
+\end{pmatrix}\\
+\vspace{0.2cm}
+The equation of the line joining the points A and B is obtained by:\\
+\begin{center}
+\textbf{X = A + \lambda(B-A)}\\
+\end{center}
+Therefore,\\
+\begin{center}
+X = \begin{pmatrix}
+-1\\
+1
+\end{pmatrix}+ \lambda \begin{pmatrix}
+3\\
+-5
+\end{pmatrix}\\
+\end{center}
+which is the required equation\\
+\vspace{1.5cm}
+\textbf{(g).}\hspace{1cm} The perpendicular P intersects the lines M and L at the foot\vspace{0.2cm} of perpendicular.Thus,\\
+\begin{center}
+n^TP=c\\\vspace{0.2cm}
+P=A+\lambda n\\\vspace{0.2cm}
+or n^TP = n^TA + \lambda \vert\vert n \vert\vert ^2 = c \\\vspace{0.2cm}
+-\lambda = \frac{n^TA - c}{\vert\vert n \vert \vert ^2}\\
+
+\end{center}
+Also, the distance between A and L is obtained from:\\
+\begin{center}
+P = A + \lambda n\\\vspace{0.2cm}
+\vert\vert P - A\vert\vert = \vert \lambda\vert \vert\vert n\vert\vert\\ 
+\end{center}
+Also, n= \begin{pmatrix}
+1\\
+tan30◦
+\end{pmatrix}, A=0\\\vspace{0.2cm}
+Thus equation becomes \vspace{0.2cm}
+\begin{center}
+5 = \vert c\vert / \vert \vert n \vert \vert\\ \vspace{0.2cm}
+c = \pm 5 \sqrt{1 + tan^230◦}\\\vspace{0.2cm}
+c = \pm 5sec30◦\\
+\end{center} 
+Thus the required equation is \\
+\begin{center}
+\begin{pmatrix}
+1& tan30◦
+\end{pmatrix}\textbf{c} = \pm 5sec30◦\\
+\end{center}
+
+
+
+
+\end{document}
